@@ -1,0 +1,31 @@
+/* pages/detail/detail.wxss */
+.container{
+  padding: 10px;
+}
+.share{
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+}
+.backtoIndex{
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+}
+.mark{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(199, 198, 198, 0.8);
+  z-index: 2;
+  text-align: center;
+  padding-top: 40%;
+  color: #fff;
+}
+.confirm{
+  color: #ffffff!important;
+}

@@ -1,0 +1,60 @@
+/**index.wxss**/
+
+.seller-search{
+  padding: 10px;
+}
+.seller-search .seller-title{
+  line-height:40px;
+  color: #ffffff;
+}
+.seller-search .seller-input{
+  width:100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.seller-search .use-help{
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+
+}
+.icon-wrapper{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 15px 15px 0 0 ;
+}
+.icon-wrapper .icon-content{
+  width:60px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.pay{
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid blue;
+  margin-bottom: 10px;
+}
+.payInfo-wrapper{
+  /* background-color: red; */
+ 
+}
+.payInfo-wrapper .payInfo-content{
+    display: flex;
+    border-top: 1px solid #cccccc;
+    padding: 10px;
+}
+.payInfo-wrapper .payInfoTitle{
+  flex: 1;
+  margin-right: 5px;
+}

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view style='background-color: skyblue;'>
+    <view class='seller-search'>
+      <text class='seller-title'>MCC积分 · 商户编号查询</text>
+      <input  class='seller-input' placeholder='  输入4位MCC码、15位商户编码' placeholder-style='color: #bbbbbb'></input>
+      <text class='use-help'>使用帮助 | 意见反馈 | 关联小程序</text>
+    </view>
+    <view class='icon-wrapper'>
+      <view wx:for="{{iconList}}" wx:key="{{index}}" class='icon-content'>
+        <image style='width:50px;height:50px;' src='{{item.url}}'></image>
+        <text class='icon-text'>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <text class='pay'>支付头条</text>
+  <view class='payInfo-wrapper'>
+     <view wx:for="{{payInfo}}" wx:key="{{index}}" class='payInfo-content' bindtap='fetchDetailInfo' id='{{item.id}}' >
+        <text class='payInfoTitle'>{{item.text}}</text>
+        <image style='width:140px;height:80px;' src='{{item.url}}'></image>
+     </view>  
+  </view> 
+
+
+
+
+
+
+</view>
